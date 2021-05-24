@@ -101,7 +101,7 @@ module.exports.handler = async (event) => {
   console.time("fetch data")
 
   const date = new Date()
-  date.setDate(date.getDate() - 5)
+  date.setDate(date.getDate() - 31)
 
   const dateString = moment(date).format("YYYY-MM-DD")
 
